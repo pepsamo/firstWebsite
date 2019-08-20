@@ -1,0 +1,23 @@
+h2.title-section {
+    color: rgba(10, 197, 0, 1);
+    font-size: 50px;
+}
+.card-container {
+    border: 1px solid rgb(255, 255, 255);
+}
+.card-container p{
+    font-weight: bold;
+    color: rgb(253, 15, 21);
+}
+.card-container p::first-letter {
+    font-size: 50px;
+}
+.card-container .rounded-image {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px
+}
+input.no-border {
+    border: none;
+}

@@ -1,0 +1,24 @@
+*{
+    text-align: center;
+}
+body{
+    background-color: #F46C00;
+}
+hr {
+    width: 25%;
+}
+a:any-link {
+    text-decoration: none;
+}
+header h1 {
+    color: rgba(10, 197, 0, 1);
+}
+header .menu ul {
+    float: left;
+}
+header .menu ul li {
+    display: inline-block;
+}
+#logIn input:focus {
+    background-color: #F46C00;
+} 
