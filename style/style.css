@@ -1,8 +1,13 @@
+@font-face {
+    font-family: Amaranth;
+    src: url(../font/amaranth/Amaranth-Regular.otf);
+}
 *{
     text-align: center;
 }
 html {
     font-size: 14px;
+    font-family: Amaranth, sans-serif;
 }
 body{
     background-color: #F46C00;
@@ -15,18 +20,26 @@ a:any-link {
 }
 header {
     width: 100%;
-    height: 5vh;
     border-bottom: 1px solid #fff;
+    padding: 15px;
 }
 header h1 {
     color: rgba(10, 197, 0, 1);
     float: left;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+header .menu {
+    padding: 15px;
+    display: inline-block
 }
 header .menu ul {
     float: right;
+    padding: 10px;
+    margin: 0 13px 14px 0;
 }
 header .menu ul li {
-    display: inline-block;
+    display: inline-flex;
 }
 header::after {
     clear: both;
