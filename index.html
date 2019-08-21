@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>My first Website</title>
+    <link rel="stylesheet" tyope="text/css" href="style/reset.css">
     <link rel="stylesheet" type="text/css" href="style/style.css">
     <link rel="stylesheet" type="text/css" href="style/index.css">
 </head>
@@ -17,30 +18,30 @@
                <li><a href="other/about.html">About</a></li>
             </ul>
         </nav>
-        <hr>
-        <!-- Sign in or log in page -->
-        <div id="requestSection">
-            <h3>Are you new?</h3>
-            <button class="no-border"><a href="other/register.html">Sign Up!</a></button><br>
-            <span><strong>or</strong></span><br>
-            <!-- Log in section -->
-            <div id="logIn">
-                <form action="index.html" method="POST">
-                    <label for="username">
-                        <span>Username:</span>
-                        <input type="text" name="username" id="username">
-                    </label><br>
-                    <label for="password">
-                            <span>Password:</span>
-                            <input type="password" name="password" id="password">
-                        </label><br>
-                        <input type="submit" class="no-border" value="Log In">
-                </form>
-                <p>Forgot the <a href="#">Password</a>?</p>
-            </div>
-        </div>
-        <hr>
     </header>
+    <hr>
+    <!-- Sign in or log in page -->
+    <div id="requestSection">
+        <h3>Are you new?</h3>
+        <button class="no-border"><a href="other/register.html">Sign Up!</a></button><br>
+        <span><strong>or</strong></span><br>
+        <!-- Log in section -->
+        <div id="logIn">
+            <form action="index.html" method="POST">
+                <label for="username">
+                    <span>Username:</span>
+                    <input type="text" name="username" id="username">
+                </label><br>
+                <label for="password">
+                        <span>Password:</span>
+                        <input type="password" name="password" id="password">
+                    </label><br>
+                    <input type="submit" class="no-border" value="Log In">
+            </form>
+            <p>Forgot the <a href="#">Password</a>?</p>
+        </div>
+    </div>
+    <hr>
     <!-- First section -->
     <section class="card-container">
             <img class="rounded-image" src="https://cdn.pixabay.com/photo/2015/06/23/23/12/hand-819279_960_720.jpg" alt="Shaking hands">
