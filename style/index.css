@@ -2,13 +2,10 @@ h2.title-section {
     color: rgba(10, 197, 0, 1);
     font-size: 50px;
 }
-div#request-section {
-    width: 80%;
-    margin: auto;
-    background-color: #fff;
-}
 .card-container {
     border: 1px solid rgb(255, 255, 255);
+    width: 85%;
+    margin: auto;
 }
 .card-container p{
     font-weight: bold;
