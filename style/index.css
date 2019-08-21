@@ -5,7 +5,7 @@ h2.title-section {
 .card-container {
     border: 1px solid rgb(255, 255, 255);
     width: 85%;
-    margin: auto;
+    margin: 15px auto;
 }
 .card-container p{
     font-weight: bold;
@@ -22,4 +22,11 @@ h2.title-section {
 }
 input.no-border {
     border: none;
+}
+
+/*ID*/
+section#feedback {
+    width: 85%;
+    margin: 15px auto;
+    padding: 25px;
 }
