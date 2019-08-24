@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My first Website</title>
+    <link rel="stylesheet" tyope="text/css" href="style/reset.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header class="bg-color">
+        <h1>Hello to everyone!</h1>
+        <!-- Nav bar -->
+        <nav class="menu">
+            <ul>
+               <li><a href="index.html">Home</a></li> 
+               <li><a href="other/about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sign in or log in page -->
+    <div id="requestSection" class="bg-color rounded-border">
+        <h3>Are you new?</h3>
+        <button class="no-border"><a href="other/register.html">Sign Up!</a></button><br>
+        <span><strong>or</strong></span><br>
+        <!-- Log in section -->
+        <div id="logIn">
+            <form action="index.html" method="POST">
+                <label for="username">
+                    <span>Username:</span>
+                    <input type="text" name="username" id="username">
+                </label><br>
+                <label for="password">
+                        <span>Password:</span>
+                        <input type="password" name="password" id="password">
+                    </label><br>
+                    <input type="submit" class="no-border" value="Log In">
+            </form>
+            <p>Forgot the <a href="#">Password</a>?</p>
+        </div>
+    </div>
+    <!-- First section -->
+    <section class="card-container bg-color rounded-border">
+            <img class="rounded-image" src="https://cdn.pixabay.com/photo/2015/06/23/23/12/hand-819279_960_720.jpg" alt="Shaking hands">
+        <h2 class="title-section">Example</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime debitis ab quis, vero quae blanditiis reiciendis sint culpa distinctio optio aliquid cupiditate similique voluptate? Tenetur, sunt? Fugiat suscipit maxime illum?</p>
+    </section>
+    <!-- Second section -->
+    <section class="card-container bg-color rounded-border">
+            <img class="rounded-image" src="https://cdn.pixabay.com/photo/2017/11/26/15/16/smiley-2979107_960_720.jpg" alt="Some Emoji">
+        <h2 class="title-section">Example</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime debitis ab quis, vero quae blanditiis reiciendis sint culpa distinctio optio aliquid cupiditate similique voluptate? Tenetur, sunt? Fugiat suscipit maxime illum?</p>
+    </section>
+    <!-- Feedback section -->
+    <section id="feedback" class="bg-color rounded-border">
+        <form action="other/thanks.html" method="GET">
+            <label>
+                <strong>Leave a vote</strong> <br>
+                <span>1</span><input type="radio" name="vote" value="one" checked>
+                <span>2</span><input type="radio" name="vote" value="two">
+                <span>3</span><input type="radio" name="vote" value="three">
+                <span>4</span><input type="radio" name="vote" value="four">
+                <span>5</span><input type="radio" name="vote" value="five">
+            </label>
+            <label> <br>
+                <strong>Leave a comment (Required)</strong> <br>
+                <textarea name="comment" id="comment" cols="30" rows="10" required></textarea>
+            </label> <br>
+            <input type="submit" class="no-border" value="Submit">
+        </form>
+    </section>
+    <!-- Footer section -->
+    <footer class="bg-color">
+        <span><strong>&copy;Giuseppe</strong></span>
+    </footer>
+</body>
+</html>
